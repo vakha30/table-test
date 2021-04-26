@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table-test {
+  padding: 20px;
+  display: flex;
+}
+
+.filter {
+  padding-right: 30px;
+  flex: 1;
+}
+
+.filter input {
+  width: 60%;
+  height: 20px;
+}
+
+.filter select {
+  width: 60%;
+  height: 24px;
+}
+
+.filter div {
+  margin-bottom: 15px;
+}
+
+.table {
+  flex: 3;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 16px;
+  background: white;
+  max-width: 800px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  border-left: 1px solid #6678b1;
+  padding: 6px 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+th svg {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+}
+
+td {
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {
+  color: #6699ff;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+}
+
+.pagination-link {
+  cursor: pointer;
+  margin-right: 15px;
+  color: #999;
+  font-weight: bold;
+}
+
+.pagination-link.active {
+  color: blue;
+}

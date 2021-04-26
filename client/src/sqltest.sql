@@ -1,0 +1,1 @@
+INSERT INTO table_test ( name, count, distance ) VALUES ( "money", 40, 600 );
